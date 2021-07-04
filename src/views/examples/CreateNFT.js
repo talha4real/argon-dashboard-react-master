@@ -9,7 +9,8 @@ import {
   Row,
   Col,
 } from "reactstrap";
-const HotBids = () => {
+const CreateNFT = () => {
+  
   return (
     <>
       <div className="header bg-gradient-info pb-8 pt-5 pt-md-8">
@@ -111,5 +112,4 @@ const HotBids = () => {
     </>
   );
 };
-HotBids.style = {};
-export default HotBids;
+export default CreateNFT;

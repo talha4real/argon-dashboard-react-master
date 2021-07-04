@@ -1,9 +1,9 @@
-import Index from "views/Index.js";
-import Profile from "views/examples/Profile.js";
-import Maps from "views/examples/Maps.js";
-import Register from "views/examples/Register.js";
-import Login from "views/examples/Login.js";
-import Tables from "views/examples/Tables.js";
+import Index from "views/Index";
+import Profile from "views/examples/Profile";
+import Maps from "views/examples/Maps";
+import Register from "views/examples/Register";
+import Login from "views/examples/Login";
+import Tables from "views/examples/Tables";
 import CreateNFT from "views/examples/CreateNFT";
 var routes = [
   {
@@ -55,7 +55,7 @@ var routes = [
     component: CreateNFT,
     layout: "/admin",
   },
-
+  
   {
     path: "/login",
     name: "Login",

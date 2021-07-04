@@ -349,7 +349,6 @@ const Index = (props) => {
       <LiveAuctions />
       <HotBids />
       <Explore />
-      <CreateNFT />
     </>
   );
 };

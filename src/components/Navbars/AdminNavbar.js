@@ -33,10 +33,11 @@ const AdminNavbar = (props) => {
         prop.name === "Login" ||
         prop.name === "Register"
       ) {
+        return null;
       } else
         return (
           <NavItem className="p-0 m-0" key={key}>
-            {prop.name == "Community" ? (
+            {prop.name === "Community" ? (
               <NavLink className="mt-2 p-0 bg-transparent">
                 <UncontrolledDropdown>
                   <DropdownToggle className="bg-transparent text-white border-0">
@@ -74,7 +75,7 @@ const AdminNavbar = (props) => {
                   </DropdownMenu>
                 </UncontrolledDropdown>
               </NavLink>
-            ) : prop.name == "Create" ? (
+            ) : prop.name === "Create" ? (
               <NavLink
                 className="p-2"
                 to={prop.layout + prop.path}

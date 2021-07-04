@@ -6,7 +6,6 @@ import {
   CardHeader,
   CardBody,
   CardImg,
-  CardTitle,
   DropdownItem,
   DropdownMenu,
   DropdownToggle,

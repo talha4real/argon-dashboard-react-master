@@ -1,16 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
 // reactstrap components
 import {
   Card,
   CardHeader,
   CardBody,
   CardImg,
-  DropdownItem,
-  DropdownMenu,
-  DropdownToggle,
-  Media,
-  UncontrolledDropdown,
   Container,
   Row,
   Col,
